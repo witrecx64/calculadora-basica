@@ -4,15 +4,18 @@ from math import *
 import webbrowser as web
 
 crash_pc =input("Quiere probar el modo experimental/crash_mode (si) o (no): ")
-crash_pc_num = int(input("Ponga de 1 a 1000 (valores enteros) que tan poderoso sea la capacidad experimental: "))
+crash_pc_lower = crash_pc.lower()
 
-
-
-def virus_error ():
-   if crash_pc == "si":
-       
+print(crash_pc_lower)
+if crash_pc_lower == "si":
+    crash_pc_num = int(input("Ponga de 1 a 1000 (valores enteros) que tan poderoso sea la capacidad experimental: "))
+    def virus_error ():
+   
+    
         for troll in range(crash_pc_num):
             troll = web.open("https://www.youtube.com/watch?v=mCdA4bJAGGk&ab_channel=sweetblue.")
+     
+        
      
         
 
